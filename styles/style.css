@@ -6,3 +6,42 @@
     font-weight: 400;
     font-style: normal;
 }
+/* Shared Style */
+.flex{
+    display: flex;
+}
+.Dark01{
+    color: #131313;
+}
+
+.Dark02{
+    color: #424242;
+}
+
+.Dark03{
+    color: #727272;
+}
+.bg-primary{
+    background-color: rgba(255, 144, 14, 0.1);
+}
+/* Header Style */
+
+/* Navbar Style */
+.navbar{
+    justify-content: space-around;
+    
+}
+.navItems{
+    list-style: none;
+    margin-right: 30px;
+    justify-content: space-around;
+}
+
+.navLink{
+    text-decoration: none;
+}
+
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
